@@ -893,6 +893,8 @@ func fromFilRegisteredPoStProof(p generated.FilRegisteredPoStProof) (abi.Registe
 		return abi.RegisteredPoStProof_StackedDrgWinning8MiBV1, nil
 	case generated.FilRegisteredPoStProofStackedDrgWinning512MiBV1:
 		return abi.RegisteredPoStProof_StackedDrgWinning512MiBV1, nil
+	case generated.FilRegisteredPoStProofStackedDrgWinning8GiBV1:
+		return abi.RegisteredPoStProof_StackedDrgWinning8GiBV1, nil
 	case generated.FilRegisteredPoStProofStackedDrgWinning32GiBV1:
 		return abi.RegisteredPoStProof_StackedDrgWinning32GiBV1, nil
 	case generated.FilRegisteredPoStProofStackedDrgWinning64GiBV1:
@@ -903,6 +905,8 @@ func fromFilRegisteredPoStProof(p generated.FilRegisteredPoStProof) (abi.Registe
 		return abi.RegisteredPoStProof_StackedDrgWindow8MiBV1, nil
 	case generated.FilRegisteredPoStProofStackedDrgWindow512MiBV1:
 		return abi.RegisteredPoStProof_StackedDrgWindow512MiBV1, nil
+	case generated.FilRegisteredPoStProofStackedDrgWindow8GiBV1:
+		return abi.RegisteredPoStProof_StackedDrgWindow8GiBV1, nil
 	case generated.FilRegisteredPoStProofStackedDrgWindow32GiBV1:
 		return abi.RegisteredPoStProof_StackedDrgWindow32GiBV1, nil
 	case generated.FilRegisteredPoStProofStackedDrgWindow64GiBV1:
@@ -920,6 +924,8 @@ func toFilRegisteredPoStProof(p abi.RegisteredPoStProof) (generated.FilRegistere
 		return generated.FilRegisteredPoStProofStackedDrgWinning8MiBV1, nil
 	case abi.RegisteredPoStProof_StackedDrgWinning512MiBV1:
 		return generated.FilRegisteredPoStProofStackedDrgWinning512MiBV1, nil
+	case abi.RegisteredPoStProof_StackedDrgWinning8GiBV1:
+		return generated.FilRegisteredPoStProofStackedDrgWinning8GiBV1, nil
 	case abi.RegisteredPoStProof_StackedDrgWinning32GiBV1:
 		return generated.FilRegisteredPoStProofStackedDrgWinning32GiBV1, nil
 	case abi.RegisteredPoStProof_StackedDrgWinning64GiBV1:
@@ -930,6 +936,8 @@ func toFilRegisteredPoStProof(p abi.RegisteredPoStProof) (generated.FilRegistere
 		return generated.FilRegisteredPoStProofStackedDrgWindow8MiBV1, nil
 	case abi.RegisteredPoStProof_StackedDrgWindow512MiBV1:
 		return generated.FilRegisteredPoStProofStackedDrgWindow512MiBV1, nil
+	case abi.RegisteredPoStProof_StackedDrgWindow8GiBV1:
+		return generated.FilRegisteredPoStProofStackedDrgWindow8GiBV1, nil
 	case abi.RegisteredPoStProof_StackedDrgWindow32GiBV1:
 		return generated.FilRegisteredPoStProofStackedDrgWindow32GiBV1, nil
 	case abi.RegisteredPoStProof_StackedDrgWindow64GiBV1:
