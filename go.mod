@@ -20,3 +20,5 @@ require (
 	modernc.org/mathutil v1.4.0 // indirect
 	modernc.org/strutil v1.1.1 // indirect
 )
+
+replace github.com/filecoin-project/go-state-types => github.com/filestar-project/go-state-types v0.1.0
