@@ -927,7 +927,6 @@ dependencies = [
  "filecoin-proofs-api",
  "libc",
  "log",
- "neptune",
  "rand 0.7.3",
  "rand_chacha",
  "rayon",
