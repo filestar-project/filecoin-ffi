@@ -1652,7 +1652,7 @@ dependencies = [
 [[package]]
 name = "neptune"
 version = "2.4.0"
-source = "git+https://github.com/filestar-project/neptune.git?tag=v2.4.0#8cc7ef4f05e3af6fb2525d04d78de81a4cf1fa7c"
+source = "git+https://github.com/filestar-project/neptune.git?branch=futhark-0.17.3#4a42e74eb96e1d0898531d16a32a200afe208535"
 dependencies = [
  "bellperson",
  "blake2s_simd",
@@ -1668,7 +1668,7 @@ dependencies = [
 [[package]]
 name = "neptune-triton"
 version = "2.1.0"
-source = "git+https://github.com/filestar-project/neptune-triton#d3d458f8da71968ab5d77b1e7c426cd6a74fdb3b"
+source = "git+https://github.com/filestar-project/neptune-triton?branch=futhark-0.17.3#c317de2896b3f056926090b99149c1b5b9205004"
 dependencies = [
  "cc",
 ]
