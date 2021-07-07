@@ -937,7 +937,7 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs"
 version = "5.3.2"
-source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=master#2baa3586b70ab81bb319b44f433087852341b6c2"
+source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=neptune-3.0.0#cec1927d4322eb9cb130fca62c00f963b8489a60"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -980,7 +980,7 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs-api"
 version = "5.3.2"
-source = "git+https://github.com/filestar-project/rust-filecoin-proofs-api.git?tag=v5.3.2#5e6575f67982237d97c804d3420fb66fd308f831"
+source = "git+https://github.com/filestar-project/rust-filecoin-proofs-api.git?branch=neptune-3.0.0#14ab76bd3a0c1e2003ca562e0d111a6443c13ca3"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -1651,26 +1651,19 @@ dependencies = [
 
 [[package]]
 name = "neptune"
-version = "2.4.0"
-source = "git+https://github.com/filestar-project/neptune.git?tag=v2.4.0#8cc7ef4f05e3af6fb2525d04d78de81a4cf1fa7c"
+version = "3.0.0"
+source = "git+https://github.com/filestar-project/neptune.git?branch=merge-3.0.0#efd3448c268990aa4711729b80697be0747037e9"
 dependencies = [
  "bellperson",
  "blake2s_simd",
  "byteorder 1.3.4",
+ "ff-cl-gen",
  "fff",
  "generic-array 0.14.4",
+ "itertools 0.8.2",
  "lazy_static",
  "log",
- "neptune-triton",
  "rust-gpu-tools 0.3.0",
-]
-
-[[package]]
-name = "neptune-triton"
-version = "2.1.0"
-source = "git+https://github.com/filestar-project/neptune-triton#d3d458f8da71968ab5d77b1e7c426cd6a74fdb3b"
-dependencies = [
- "cc",
 ]
 
 [[package]]
@@ -2545,7 +2538,7 @@ dependencies = [
 [[package]]
 name = "sha2raw"
 version = "2.0.0"
-source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=master#2baa3586b70ab81bb319b44f433087852341b6c2"
+source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=neptune-3.0.0#cec1927d4322eb9cb130fca62c00f963b8489a60"
 dependencies = [
  "block-buffer 0.9.0",
  "byteorder 1.3.4",
@@ -2590,7 +2583,7 @@ checksum = "a2eb9349b6444b326872e140eb1cf5e7c522154d69e7a0ffb0fb81c06b37543f"
 [[package]]
 name = "storage-proofs"
 version = "5.3.2"
-source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=master#2baa3586b70ab81bb319b44f433087852341b6c2"
+source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=neptune-3.0.0#cec1927d4322eb9cb130fca62c00f963b8489a60"
 dependencies = [
  "storage-proofs-core",
  "storage-proofs-porep",
@@ -2600,7 +2593,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-core"
 version = "5.3.2"
-source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=master#2baa3586b70ab81bb319b44f433087852341b6c2"
+source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=neptune-3.0.0#cec1927d4322eb9cb130fca62c00f963b8489a60"
 dependencies = [
  "aes",
  "anyhow",
@@ -2635,7 +2628,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-porep"
 version = "5.3.2"
-source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=master#2baa3586b70ab81bb319b44f433087852341b6c2"
+source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=neptune-3.0.0#cec1927d4322eb9cb130fca62c00f963b8489a60"
 dependencies = [
  "anyhow",
  "bellperson",
@@ -2671,7 +2664,7 @@ dependencies = [
 [[package]]
 name = "storage-proofs-post"
 version = "5.3.2"
-source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=master#2baa3586b70ab81bb319b44f433087852341b6c2"
+source = "git+https://github.com/filestar-project/rust-fil-proofs.git?branch=neptune-3.0.0#cec1927d4322eb9cb130fca62c00f963b8489a60"
 dependencies = [
  "anyhow",
  "bellperson",
